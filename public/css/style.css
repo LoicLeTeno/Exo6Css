@@ -1,0 +1,50 @@
+body {
+    width: 50%;
+    
+    margin: 0 auto;
+
+    box-shadow: 3px 3px 5px 6px rgb(163, 158, 158);
+}
+
+/* HEADER */
+header {
+    background-color: black;
+
+    display: flex;
+
+    padding: 12px;
+
+    justify-content: space-between;
+}
+
+#Logo {
+    float: left;
+    display: flex;
+
+    padding-top: 40px;
+}
+
+#navBar {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+}
+
+#navBar li {
+    padding: 20px;
+
+    text-align: center;
+}
+
+header p {
+    color: white;
+    ;
+
+    font-size: 10px;
+}
+
+
+/* CONTENU */
